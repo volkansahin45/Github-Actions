@@ -25,6 +25,10 @@ jobs:
       with:
         java-version: 1.8
       
+    #Runs Android Lint
+    - name: Run Lint
+      run: bash ./gradlew lint
+
     # Runs Android test
     - name: Run Android test
       run: bash ./gradlew test
