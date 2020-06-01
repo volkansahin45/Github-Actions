@@ -11,7 +11,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  test:
+  build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -24,11 +24,6 @@ jobs:
       uses: actions/setup-java@v1.3.0
       with:
         java-version: 1.8
-      
-    #Runs Android Lint
-    - name: Run Lint
-      run: bash ./gradlew lint
 
-    # Runs Android test
-    - name: Run Android test
-      run: bash ./gradlew test
+    - name: Build with Gradle
+      run: ./gradlew build
