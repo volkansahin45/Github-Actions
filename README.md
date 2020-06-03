@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="https://github.com/volkansahin45/Github-Actions/actions?query=workflow%3A%22Pull+Request+Check%22"><img alt="Pull Request Check" src="https://github.com/volkansahin45/github-actions/workflows/Pull%20Request%20Check/badge.svg"></a>
+  <a href="https://github.com/volkansahin45/Github-Actions/actions?query=workflow%3A%22Distribute+Beta%22"><img alt="Distribute Beta" src="https://github.com/volkansahin45/github-actions/workflows/Distribute%20Beta/badge.svg"></a>
+</p>
+
 # Github-Actions
 A sample project to play with Github Actions
 
